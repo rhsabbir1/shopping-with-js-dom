@@ -16,3 +16,8 @@
 // let p = 10;
 // let n = 20;
 // console.log(add(p, n));
+
+
+// for(let i = 0; i <=1000; i++){
+//     console.log('ilabu buri',' ',i)
+// }
