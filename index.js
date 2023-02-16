@@ -15,7 +15,7 @@ function showData (productName,productPrice,procuctQuantity,totalPRice){
 }
 
 function getAllData(){
-  
+
 }
 
 // for first card 
@@ -79,3 +79,14 @@ document.getElementById('third-card').addEventListener('click', function () {
 })
 
 
+// last card 
+document.getElementById('last-card').addEventListener('click', function(){
+  const productName = document.getElementById('last-title').innerText;
+
+  const productPrice = document.getElementById('first-input').value;
+  const productQuantity = document.getElementById('second-input').value;
+
+  const division = parseFloat(productPrice) / parseInt(productQuantity)
+
+  showData(productName,productPrice,productQuantity,division)
+})
